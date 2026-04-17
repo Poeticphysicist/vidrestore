@@ -37,14 +37,6 @@ VidRestore 是一款完全离线运行的 macOS 应用，利用先进的 AI 模�
 **批量处理**：可一次性选择多个视频  
 **快速定位**：点击已完成列表中的路径可在 Finder 中高亮显示文件
 
-## 💰 定价与支付
-
-- **终身使用权限**：$40（BTC 支付）
-- 支付方式：在 App 内完成 BTC 主网支付（自托管 BTCPay）
-- Paddle 信用卡支付（$49）正在审核中，审核通过后将支持
-
-**2 天免费试用**：下载后可先完整试用，满意后再支付激活。
-
 ## 系统要求
 
 - macOS 12.0 或更高版本
@@ -54,12 +46,16 @@ VidRestore 是一款完全离线运行的 macOS 应用，利用先进的 AI 模�
 ## 技术栈
 
 - **界面**：CustomTkinter（现代 macOS 风格）
-- **核心**：先进 AI 视频修复引擎 + FFmpeg + mkvmerge
+- **核心**：先进 AI 视频修复引擎 + Real-ESRGAN 模型 + FFmpeg + mkvmerge
 - **打包**：PyInstaller（单文件 .app + .dmg）
 
 ## 致谢
 
-感谢 FFmpeg、PyInstaller、CustomTkinter 等开源项目为本软件提供的强大支持。
+感谢以下开源项目为本软件提供的强大支持：
+- Real-ESRGAN（BSD-3-Clause）
+- FFmpeg
+- PyInstaller
+- CustomTkinter
 
 ## 联系我们
 
