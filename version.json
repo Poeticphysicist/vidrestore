@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.1.0",
-  "download_url": "https://github.com/Poeticphysicist/VidRestore/releases/download/v1.1.0/VidRestore-v1.1.0.dmg",
-  "release_notes": "拖拽文件 + 更改各部分边框 + 拖动更改列表顺序 + 列表滚动优化..."
+  "latest_version": "1.2.4",
+  "download_url": "https://github.com/Poeticphysicist/VidRestore/releases/download/v1.2.4/VidRestore.dmg",
+  "release_notes": "Supervisor 架构重构 + 智能动态分段 + 内存自适应优化 + 错误处理加强 + 优雅退出流程改进 + 版本集中管理"
 }
